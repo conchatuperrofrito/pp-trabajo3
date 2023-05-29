@@ -1,0 +1,16 @@
+<!-- {{ title }} {{ 2 + 5 }} -->
+<!-- AQUI ESTAMOS VIENDO EL TWO WEB DATABIDING  -->
+<!-- EL BALOR LO PODEMOS MODIFICAR DESDE EL BALOR DES DE EL FROND DE NUESTRA APP  -->
+<!-- <input type="text" [(ngModel)]="title" /> -->
+<!-- traemos un componente -->
+<!-- <app-component></app-component> -->
+<!-- <app-component></app-component> -->
+<app-component (myAction)="myActionOutput($event)"></app-component>
+<h1>esto se ejecuta en le componente 2</h1>
+{{ title }}
+<!-- <p>
+  <mat-toolbar color="primary">
+    <span>My Application stifler</span>
+  </mat-toolbar>
+</p> -->
+
